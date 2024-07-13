@@ -563,6 +563,15 @@ nav a {
   font-size: 1.2em;
 }
 
+#DSGVO {
+  text-align: left;
+  display: block;
+}
+
+#DSGVO a {
+  color: #0db1a8;
+}
+
 .hidden_box {
   display: none;
   margin: 0px;
