@@ -49,6 +49,28 @@ nav a {
   }
 }
 
+@media (max-width: 1550px) {
+  .nav_content {
+    width: 40%;
+  }
+}
+
+@media (max-width: 1150px) {
+  .nav_content {
+    width: 60%;
+  }
+}
+
+@media (max-width: 860px) {
+  .nav_content {
+    width: 100%;
+  }
+
+  nav a {
+    font-size: 1.1em;
+  }
+}
+
 /* HERO SECTION */
 #hero {
   width: 100%;
@@ -102,30 +124,10 @@ nav a {
   min-width: 200px;
 }
 
-@media (max-width: 1550px) {
-  .nav_content {
-    width: 40%;
-  }
-}
-
-@media (max-width: 1150px) {
-  .nav_content {
-    width: 60%;
-  }
-}
-
 @media (max-width: 860px) {
   .hero_content h1 {
     font-size: 3em;
     color: #ffffff;
-  }
-
-  .nav_content {
-    width: 100%;
-  }
-
-  nav a {
-    font-size: 1.1em;
   }
 
   .hero_content button {
@@ -265,8 +267,6 @@ nav a {
   color: #0d8882;
 }
 
-
-
 @media (max-width: 1450px) {
   .services_list {
     width: 600px;
@@ -307,7 +307,6 @@ nav a {
     font-size: 2em;
   }
 }
-
 
 /* Photo Gallery */
 .photo_gallery {
@@ -499,11 +498,10 @@ nav a {
 }
 
 @media (max-width: 499px) {
-
   #about {
     padding: 60px 30px;
   }
-  
+
   #about h2 {
     font-size: 3.5em;
     text-align: center;
@@ -631,11 +629,10 @@ select {
     padding: 100px 30px;
   }
 
-  #contact h2{
+  #contact h2 {
     font-size: 3.5em;
   }
 }
-
 
 /* FOOTER SECTION */
 footer {
@@ -645,7 +642,7 @@ footer {
   color: #ffffff;
   display: flex;
   gap: 50px;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
 }
 
@@ -684,7 +681,7 @@ footer * {
 }
 
 .footer_rights {
-  width: 30%;
+  width: 25%;
   line-height: 1.5;
   text-align: center;
   display: flex;
@@ -692,7 +689,7 @@ footer * {
 }
 
 .footer_links {
-  width: 30%;
+  width: 25%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -707,10 +704,6 @@ footer * {
 }
 
 @media (max-width: 1000px) {
-  footer {
-    align-items: flex-start;
-  }
-
   footer * {
     font-size: 20px;
   }
@@ -747,7 +740,6 @@ footer * {
   }
 
   .footer_rights {
-    
-  min-width: 200px;
+    min-width: 200px;
   }
 }
