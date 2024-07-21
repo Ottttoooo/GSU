@@ -363,6 +363,10 @@ nav a {
   z-index: 1000;
 }
 
+.gallery_nav:hover {
+  color: #0d8882;
+}
+
 #prev_button {
   left: calc(15% - 50px); /* Adjust this calculation based on your layout */
 }
@@ -407,12 +411,21 @@ nav a {
   text-align: center;
 }
 
+.about_content > p {
+  margin-bottom: 50px;
+}
+
+.about_content h3 {
+  font-size: 50px;
+  text-align: left;
+  justify-self: left;
+}
+
 .about_content {
   width: 60%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 50px;
   font-size: 1.2em;
   text-align: justify;
 }
@@ -522,6 +535,7 @@ nav a {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 .contact_title_container {
@@ -540,10 +554,17 @@ nav a {
   justify-self: left;
 }
 
+#contact h3 {
+  font-size: 3em;
+  margin-bottom: 30px;
+  justify-self: left;
+}
+
 .contact_content_container {
   width: 100%;
   display: flex;
   justify-content: center;
+  margin-bottom: 50px;
 }
 
 .contact_content {
@@ -554,10 +575,25 @@ nav a {
   gap: 100px;
 }
 
+.contact_form {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 100px;
+}
+
 .contact_content_section {
   flex: 1 1 40%;
   max-width: 50%;
   min-width: 300px;
+}
+
+#form_section2 {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .form_box {
@@ -625,6 +661,7 @@ select {
 
 #contact_info_section {
   line-height: 2;
+  width: 80%;
 }
 
 @media (max-width: 1091px) {
@@ -632,9 +669,19 @@ select {
     width: 100%;
     text-align: center;
   }
+  
+  .contact_form {
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+  }
 
   .contact_content_section {
     text-align: center;
+  }
+
+  #form_section2 {
+    height: auto;
   }
 }
 
