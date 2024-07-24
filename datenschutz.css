@@ -196,9 +196,9 @@ ul {
   }
 
   .impressum,
-.privacy-policy {
-  padding: 300px 100px 100px;
-}
+  .privacy-policy {
+    padding: 300px 100px 100px;
+  }
 }
 
 @media (max-width: 400px) {
@@ -232,13 +232,11 @@ ul {
   }
 }
 
-
 /* AGB section */
 .agb {
   padding: 200px 200px 100px;
   padding-right: 30%;
 }
-
 
 .agb h1,
 .agb h2,
@@ -270,6 +268,12 @@ ul {
   font-size: 18px;
 }
 
+@media (max-width: 950px) {
+  .agb {
+    padding: 200px 50px 100px;
+  }
+}
+
 @media (max-width: 580px) {
   .agb {
     padding-top: 300px;
@@ -285,7 +289,7 @@ ul {
   }
 
   .agb h1 {
-    font-size: 30px;
+    font-size: 25px;
     margin-bottom: 30px;
     font-family: adobe-caslon-pro, serif;
   }
@@ -299,10 +303,9 @@ ul {
     font-size: 20px;
   }
 
-  
-.agb {
-  padding: 300px 100px 100px;
-}
+  .agb {
+    padding: 200px 50px 100px;
+  }
 }
 
 @media (max-width: 400px) {
@@ -316,21 +319,23 @@ ul {
   }
 
   .agb h1 {
-    font-size: 25px;
+    font-size: 18px;
     margin-bottom: 30px;
     font-family: adobe-caslon-pro, serif;
   }
 
   .agb h2 {
-    font-size: 20px;
+    font-size: 15px;
     margin-bottom: 20px;
   }
 
   .agb h3 {
     font-size: 15px;
   }
+  .agb {
+    padding: 200px 20px 100px;
+  }
 }
-
 
 /* FOOTER SECTION */
 footer {
@@ -441,5 +446,3 @@ footer * {
     min-width: 200px;
   }
 }
-
-
