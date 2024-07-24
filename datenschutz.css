@@ -197,14 +197,14 @@ ul {
 
   .impressum,
   .privacy-policy {
-    padding: 300px 100px 100px;
+    padding: 300px 50px 100px;
   }
 }
 
 @media (max-width: 400px) {
   .impressum,
   .privacy-policy {
-    padding-top: 300px;
+    padding: 200px 20px 100px;
   }
 
   .privacy-policy p,
@@ -269,15 +269,14 @@ ul {
 }
 
 @media (max-width: 950px) {
-  .agb {
+  .agb,
+  .impressum,
+  .privacy-policy {
     padding: 200px 50px 100px;
   }
 }
 
 @media (max-width: 580px) {
-  .agb {
-    padding-top: 300px;
-  }
 
   .agb p,
   .agb strong {
@@ -309,9 +308,6 @@ ul {
 }
 
 @media (max-width: 400px) {
-  .agb {
-    padding-top: 300px;
-  }
 
   .agb p,
   .agb strong {
