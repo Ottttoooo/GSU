@@ -90,7 +90,7 @@ nav a {
   }
 }
 
-/* DATENSCHUTZ SECTION */
+/* DATENSCHUTZ & IMPRESSUM SECTION */
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
@@ -232,6 +232,45 @@ ul {
   }
 }
 
+
+/* AGB section */
+.agb {
+  padding: 200px 200px 100px;
+  padding-right: 30%;
+}
+
+
+.agb h1,
+.agb h2,
+.agb h3,
+.agb p,
+.agb strong,
+.agb a {
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.agb p {
+  text-align: justify;
+  margin-bottom: 30px;
+}
+
+.agb h1 {
+  font-size: 50px;
+  margin-bottom: 30px;
+  font-family: adobe-caslon-pro, serif;
+}
+
+.agb h2 {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.agb h3 {
+  font-size: 18px;
+}
+
+
 /* FOOTER SECTION */
 footer {
   width: 100%;
@@ -341,3 +380,5 @@ footer * {
     min-width: 200px;
   }
 }
+
+

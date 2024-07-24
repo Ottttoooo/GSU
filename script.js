@@ -96,3 +96,6 @@ document.addEventListener("DOMContentLoaded", () => {
         companyInput.classList.remove('form_box');
     }
 }
+
+
+// google reviews seciton-------------------------------------------------
